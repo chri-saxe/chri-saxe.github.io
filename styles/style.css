@@ -44,7 +44,7 @@ footer {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: "cornflowerblue"; /* Bleu semi-transparent */
+    background-color: #6495ED; /* Bleu semi-transparent */
     border-radius: 50%;
     pointer-events: none; /* Pour que les cercles ne capturent pas les événements de la souris */
     box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.3); /* Effet de fondu */
