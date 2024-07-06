@@ -5,15 +5,29 @@
 }
 
 
+header {
+    padding: 50px 0px;
+}
+
+#bienvenue {
+    background-color: #D3E3FD;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+#img img {
+    width: 250px;
+    padding-left: 20px;
+}
 
 #ul-header {
+    padding: 20px 0px;
     display: flex;
     justify-content: space-around;
     list-style: none;
-}
-
-#ul-header li {
-    padding: 50px 0px;
 }
 
 footer {
