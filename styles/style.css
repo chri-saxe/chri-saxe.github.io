@@ -1,59 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
-  
-header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
-}
-  
-nav ul {
+
+
+
+#ul-header {
+    display: flex;
+    justify-content: space-around;
     list-style: none;
-    padding: 0;
-}
-  
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-  
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
-main {
-    padding: 20px;
+#ul-header li {
+    padding: 50px 0px;
 }
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.circle {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(0, 0, 255, 0.6); /* Bleu semi-transparent */
-    border-radius: 50%;
-    pointer-events: none; /* Pour que les cercles ne capturent pas les événements de la souris */
-    box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.3); /* Effet de fondu */
-    animation: fadeOut 1s forwards;
-  }
-  
-  @keyframes fadeOut {
-    to {
-      opacity: 0;
-      transform: scale(2); /* Agrandit le cercle pour un effet de fondu */
-    }
-  }
