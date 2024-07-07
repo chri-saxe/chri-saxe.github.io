@@ -6,34 +6,64 @@
 
 
 header {
-    padding: 50px 0px;
+    padding: 20px 0 20px 0px;
+    background-color: #8EB9FF;
+    display: flex;
 }
 
-#bienvenue {
+header nav {
+    margin: 0 0 20px 20px;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+}
+
+#d-title {
+    width: 25rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #D3E3FD;
 }
 
-#img {
+h1 {
+    padding: 20px 0 0 20px;
+}
+
+#d-img {
     display: flex;
     justify-content: center;
 }
 
-#img img {
+#d-img img {
     width: 250px;
-    padding-left: 20px;
 }
 
-#ul-header {
-    padding: 20px 0px;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+
+
+main {
+    margin: 20px;
 }
+
+
 
 footer {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 -5px 20px grey;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
-    width: 100%;
 }
+
